@@ -1,0 +1,82 @@
+/* CongratulationsPage.css */
+.congratulations-container {
+    display: flex;
+    background-color: #E5E2D3;
+    height: 87vh;
+    justify-content: center;
+    align-items: center;
+    margin : 0% 0;
+    z-index: 999;
+  }
+  .congratulations-content {
+    text-align: center;
+    margin : 10px;
+  }
+  
+  .main-heading {
+    color: #333;
+    font-weight: bolder;
+  }
+  
+  p {
+    color: #666;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  
+  .buttons-container {
+    margin-top: 20px;
+  }
+  
+  .login-button,
+  .signup-button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 800;
+    color: #fff;
+    box-shadow: 1px 1px 4px 1px #333;
+    transition: background-color 0.3s ease;
+  }
+  
+  .login-button {
+    background-color: #63c62a;
+  }
+  
+  .signup-button {
+    background-color: #63c62a;
+  }
+  
+  .login-button:hover,
+  .signup-button:hover {
+    background-color: #45a110;
+    
+  }
+  
+  @media screen and (max-width: 768px) {
+
+    h2 {
+      font-size: 40px;
+    }
+    p {
+      font-size:15px;
+    }
+    .buttons-container {
+      margin-top: 20px;
+      display: flex;
+    }
+    .congratulations-container{
+      margin: 20px;
+      height: 80vh;
+    }
+  }
+
+  @media screen and (min-width: 768px){
+
+    .main-heading {
+      font-size: 60px;
+    }
+  } 

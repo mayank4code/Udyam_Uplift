@@ -1,0 +1,424 @@
+@import url("https://fonts.googleapis.com/css2?family=Charmonman&family=Noto+Sans:wght@300&display=swap");
+
+body {
+  overflow-x: hidden;
+}
+
+.half {
+  background-color: #cfd9c7;
+  font-family: "Noto Serif", serif;
+}
+
+.half-2 {
+  background-color: #fdfbf1;
+}
+
+.dark {
+  background-color: #294826;
+}
+
+/* CONGRATULATIONS */
+
+@media screen and (min-width: 768px) {
+  .dark-top {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #294826;
+    height: 35vh;
+  }
+
+  .flex-item {
+    padding: 20px;
+    margin: 0 70px;
+  }
+
+  .flex {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .img-top {
+    width: 120px;
+  }
+
+  .congratulations {
+    color: #dbdfd4;
+    text-transform: uppercase;
+    font-size: 80px;
+  }
+
+  .congo-text {
+    color: #dbdfd4;
+  }
+
+  .down-btn {
+    font-family: "Noto Serif", serif;
+    background-color: #b9c9c7;
+    border: none;
+    color: #294826;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 200px;
+    margin-left: 10px;
+    margin-top: 0px;
+  }
+
+  .inner-flex {
+    display: flex;
+  }
+  
+}
+
+/* CONGARTULATIONS ENDS */
+
+/* FIRST LIGHT PART  */
+
+.para-top {
+  text-align: center;
+}
+
+.light {
+  background-color: #fdfbf0;
+  padding: 8px;
+  margin: 15px;
+}
+
+.para-top {
+  font-size: 18px;
+  font-family: "NOTO" serif;
+  color: #405738;
+  margin-bottom: 25px;
+  line-height: 1.5;
+}
+.you-are {
+  font-size: 30px;
+  font-family: "Noto Serif", serif;
+  color: #294826;
+  /* margin-top:-30px; */
+  text-transform: uppercase;
+}
+.head4 {
+  color: white;
+  background-color: #294826;
+  width: auto;
+}
+.quad-graph {
+  width: 100vw;
+  height: vh;
+  display: flex;
+  justify-content: center;
+  /* justify-content: flex-start; */
+}
+
+.text1 {
+  font-size: 17px;
+  color: #294826;
+  padding: 30px;
+  line-height: 1.5;
+}
+
+/* QUALITIES  */
+
+.light {
+  background-color: #fdfbf1;
+  padding: 8px;
+  margin: 15px;
+}
+
+.your-qualities,
+.social-influence,
+.influence {
+  background-color: #294826;
+  color: white;
+  font-size: 30px;
+}
+
+.margin {
+  margin-top: 60px;
+}
+
+
+@media screen and (min-width: 768px) {
+
+.cont {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  
+}
+
+.first,
+.second {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+.my-star {
+  width: 40px;
+  margin: 5px auto;
+}
+
+}
+
+/* QUALITY END */
+
+.pie-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* padding: 20px; */
+}
+
+.pie-text {
+  width: 50vw;
+  background-color: #cfd9c7;
+  font-size: 20.5px;
+  padding: 20px;
+  color: #294826;
+}
+
+.radialBar {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* LIGHT AREA ENDS */
+
+.inner-4 {
+  background-color: #dbdfd4;
+  margin: 0 10px;
+  /* margin-top: 50px; */
+}
+.star {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-left: 40px;
+}
+.inner-star {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: #294826;
+  padding-top: 10px;
+}
+
+.p1 {
+  margin-left: 40px;
+  margin-top: -5px;
+  color: #294826;
+}
+.rounded-btn {
+  font-family: "Noto Serif", serif;
+  background-color: #b9c9c7;
+  border: none;
+  color: #294826;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 12px;
+  padding-right: 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  width: 20%;
+  border-radius: 25px;
+  margin-bottom: 20px;
+}
+.endbtn {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  /* CONGRATULATIONS  */
+
+  .dark-top {
+    display: flex;
+  }
+
+  .dark {
+    background-color: #294826;
+  }
+
+  .congratulations,
+  .congo-text {
+    color: #dbdfd4;
+  }
+
+  .congratulations {
+    font-size: large;
+    text-transform: uppercase;
+  }
+
+  .down-btn {
+    font-family: "Noto Serif", serif;
+    background-color: #b9c9c7;
+    border: none;
+    color: #294826;
+    padding: 5px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 25px;
+    width: 300px;
+  }
+
+  .flex-item {
+    padding: 10px; 
+  }
+
+  .img-top {
+    width: 100px;
+  }
+
+  .down-btn {
+    width: 200px; 
+  }
+  .you-are{
+    font-size: 16px;
+  }
+  .para-top{
+    font-size: 15px;
+  }
+  /* CONGS END  */
+
+ 
+
+  /* QUALITIES */
+
+   .quality-container {
+   height: 70vh;
+  }
+
+  /* .cont {
+    width: 20vw;
+    margin: 10px; 
+    background-color: pink;
+    text-align: center;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .first{
+    display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+  }
+
+  .cont{
+    display: flex;
+    flex-direction: column;
+  } */
+
+  .pie-container {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: flex-start; */
+  }
+
+  .pie-text{
+    width: 100vw;
+  }
+
+
+  /* GRAPH */
+
+  .quad-graph {
+    width: 80vw;
+  }
+  
+  .rounded-btn{
+    width: 200px;
+  }
+}
+
+
+/* NEW CSS FOR QUALITIES */
+
+.unique-quality-container {
+    margin-top: 5%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+  .unique-star-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px; /* Adjust the horizontal gap between stars */
+    margin-bottom: 20px; /* Add space between the rows */
+  }
+
+  .unique-star {
+    width: calc(33.33% - 20px); /* Distribute stars in 3 columns with 20px gap */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+@media (min-width: 1024px) {
+  .unique-star-row {
+    display: flex;
+    justify-content: center;
+    gap: 250px; /* Increase the horizontal gap between stars */
+    margin-bottom: 20px; /* Add space between the rows */
+  }
+
+  .unique-star {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+}
+
+.unique-star-row-2{
+    margin-top: 7%;
+}
+
+.unique-my-star {
+  width: 40px; /* Adjust the star size as needed */
+  height: 40px;
+}
+
+.unique-quality-text h4 {
+  max-width: 250px; /* Increase the maximum width for the text */
+  overflow: hidden; /* Handle overflow by hiding it */
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+@media (max-width: 768px) {
+  .unique-star-row {
+    display: flex;
+    flex-direction: column; /* Change to a single column layout for smaller screens */
+    gap: 20px; /* Adjust the gap between stars for smaller screens */
+  }
+  .unique-star-row-2{
+    margin-top: 0;
+}
+
+  .unique-my-star {
+    width: 60px; /* Increase the star size for smaller screens */
+    height: 60px;
+  }
+}
+

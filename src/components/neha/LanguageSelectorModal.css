@@ -1,0 +1,102 @@
+/* LanguageSelectorModal.css */
+.modal-heading{
+  text-align: center;
+}
+
+.modal-container {
+  /* width : 400px;
+  height : 45%;
+  margin : 0 auto; */
+  position: absolute;
+  background: white;
+  border: 1px solid #ccc;
+  padding: 20px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Sora', sans-serif;
+  border-radius : 10px;
+  max-height: 40vh;
+  overflow-y: auto; 
+  /* color: #A4ACFF; */
+}
+
+.language-list {
+  list-style: none;
+  /* margin-top: 15px; */
+}
+
+
+.language-option {
+  cursor: pointer;
+  margin-bottom: 10px;
+  color: #36a941;
+  padding: 10px 0;
+  border-bottom: 1px solid #ccc;
+  transition: color 0.3s; /* Add a smooth transition for color change */
+  font-weight: bolder;
+}
+
+.language-option:hover {
+  color: #008c10; 
+}
+
+.checkbox-label, .input:hover{
+  cursor: pointer;
+}
+
+.language-option:last-child {
+  border-bottom: none; 
+}
+
+
+
+/* Rest of your styles */
+
+.page-container {
+  /* Your existing styles for the page container */
+  position: relative; /* Important to make overlay relative to this container */
+}
+
+.blur-background {
+  filter: blur(5px); /* Apply backdrop blur when modal is open */
+}
+
+.modal-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent black */
+  z-index: 1; /* Ensure it's below the modal */
+}
+
+.checkbox-label {
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+  gap: 8px;
+}
+
+.checkbox-label input[type="radio"] {
+  margin-right: 10px; /* Adjust the margin to control the space */
+}
+
+.disabled {
+  color: #aaa;
+  cursor: not-allowed; 
+  pointer-events: none; /* Prevent interactions with disabled labels */
+}
+
+@media screen and (max-width: 768px) {
+  .modal-container{
+    width: 70vw;
+    padding-left: 10px;
+  }
+
+  .language-option {
+   padding: 8px 0;
+  }
+}

@@ -1,0 +1,48 @@
+/* Disclaimer.css */
+
+/* Container */
+.disclaimer-container {
+    max-width: 800px;
+    margin: 3rem auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header */
+  .disclaimer-header {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .disclaimer-header h1 {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  /* Section */
+  .disclaimer-section {
+    margin-top: 20px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  /* Footer */
+  .disclaimer-footer {
+    margin-top: 20px;
+    font-size: 14px;
+    text-align: center;
+    color: #777;
+  }
+  
+  .disclaimer-footer a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .disclaimer-footer a:hover {
+    text-decoration: underline;
+  }
+  

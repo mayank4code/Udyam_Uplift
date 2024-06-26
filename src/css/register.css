@@ -1,0 +1,129 @@
+.register-outer-div{
+    /* background: linear-gradient(135deg, #f2f4f3, #159337); */
+    margin : 0 auto;
+}
+
+.registration-page {
+  background-image: url("../images/bg.png");
+    display: flex;
+    flex-direction: column;
+    /* max-width: 400px; */
+    align-items: center;
+    padding: 20px;
+  }
+  .registration-heading {
+    background: linear-gradient(135deg, #f2f4f3, #3dcb4e);
+    /* background: linear-gradient(135deg, #E9F1EF, #45D756); */
+
+
+
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.8);
+  
+    text-align: center;
+    margin: 20px auto; /* Center the element horizontally and add spacing all around */
+    max-width: 70%; /* Limit the maximum width of the heading */
+  }
+
+  .input-field select {
+    background-color: #fff; /* Set the background color to white */
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    width: 100%;
+  }
+  
+  .input-field {
+    display: flex;
+    flex-direction: column; /* Update to flex-direction: column */
+    align-items: flex-start; /* Align items to the start */
+    margin-bottom: 15px;
+  }
+  
+  .input-field label {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  input[type='text'],
+  input[type='email'],
+  input[type='password'],
+  input[type='number'],
+  select {
+    padding: 10px;
+    width: 100%;
+    border: 2px solid #5a5656eb;
+    border-radius: 15px;
+    /* box-shadow: none; Remove box shadow from input elements */
+  }
+  
+  select {
+    appearance: none;
+    background: transparent;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #63c62a;
+    font-size: large;
+    font-weight: 400;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  button:hover{
+    background-color: #45a110;
+  }
+  
+  button.disabled {
+    opacity: 0.5;
+    cursor: default !important;
+  }
+  
+  
+  /* Responsive styles for small mobile screens */
+  @media only screen and (max-width: 480px) {
+    form {
+      max-width: 100%;
+    }
+  
+    .input-field {
+      margin-bottom: 15px;
+    }
+  
+    button {
+      width: 100%;
+      margin-top: 15px;
+    }
+  }
+
+
+  /* Privacy Policy Note */
+.privacy-policy-note {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+    color: #888; /* You can adjust the color */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    /* Adjust styles for smaller screens if needed */
+    .privacy-policy-note {
+      font-size: 12px; /* Adjust font size for smaller screens */
+      margin-top: 10px; /* Adjust margin for smaller screens */
+    }
+  }
+  

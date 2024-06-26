@@ -1,0 +1,118 @@
+.outerNav {
+  background-color: white;
+  /* padding: 0.7% 3%; */
+  padding: 0.6rem 3rem;
+  box-shadow: 0 0.3rem 0.25rem -0.25rem rgb(0, 0, 0, 0.2);
+}
+
+.yiImg {
+  width: 4.5rem;
+  margin-right: 2%;
+}
+
+
+
+.languageContainer {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btnStyle {
+  /* background-color: #FB2576; */
+  padding: 10px 15px;
+  border: none;
+  outline: none;
+}
+
+.navBtn {
+  color: #333;
+  background: linear-gradient(45deg, #beed6c, #3e950c);
+  border-radius: 50px;
+  height: 38px;
+  font-weight: bold;
+  font-size: 16px;
+  padding: 5px 20px;
+  padding-bottom: 9px;
+  border: none;
+  margin-left: 0.6rem;
+
+
+}
+
+.navBtn:hover {
+  background: linear-gradient(45deg, #9bcf4e, #294e17);
+  color: white;
+}
+
+
+
+
+/* ... (Your existing styles) */
+
+/* .language-dropdown {
+  display: flex;
+  align-items: center;
+  margin-right: 1rem;
+} */
+
+/* .language-select {
+  font-size: 14px;
+  padding: 5px 10px;
+  font-weight: bold;
+  color: #333;
+} */
+
+
+/* ... (Your existing styles) */
+
+
+
+
+@media (max-width: 1000px) and (min-width: 576px) {
+  .navBtn {
+    margin-left: 0;
+    margin-top: 0.8rem;
+  }
+}
+
+
+/* PHONE VIEW  */
+
+@media (max-width: 576px) {
+  .outerNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+  }
+
+  .navBtn {
+    margin-left: 0;
+    margin-top: 0.8rem;
+    width : 40%;
+  }
+
+  .navDisplay {
+    display: flex;
+    /* flex-basis: 200px; */
+    justify-content: space-between;
+    flex-grow: 2; 
+    align-items: center;
+  }
+
+
+  .hamStyle {
+    /* margin-left: 150px; */
+    margin-top: -2px;
+  }
+  .hamStyle:hover{
+    background:#fff !important ;
+  }
+
+  /* .toggler{
+    margin-left: 200px;
+  } */
+
+
+}

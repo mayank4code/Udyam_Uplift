@@ -1,0 +1,11 @@
+.progress{
+    width: 85%;
+    height: 20px;
+    margin-left: 6%;
+}
+@media screen and (max-width: 768px) {
+    .progress{
+    position: relative;
+    
+    }
+}
